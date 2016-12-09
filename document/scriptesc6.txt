@@ -1,0 +1,23 @@
+// Install typescript
+npm install typescript -g
+tsc --init
+// add output Dir tsconfig.js
+// Map = false
+
+// pakage.js init npm
+npm init
+npm install lite-server --save-dev
+// Config pakage
+"scripts": {    
+    "dev": "lite-server"
+},
+// run project in lite-server
+npm run dev
+Lesson
+- hosting
+- block scope
+- let var
+- arrow function
+- dafualt parameter in function
+- rest parameter, spread parameter
+- destructure array
